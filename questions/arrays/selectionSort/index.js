@@ -25,5 +25,5 @@
 
  return nums
 }
-console.log(selectionSort([3, 2, 1]) -> [1, 2, 3]);
+console.log(selectionSort([3, 2, 1]));
 module.exports = selectionSort;
