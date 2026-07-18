@@ -10,7 +10,18 @@
  */
 
  const insertionSort = (nums) => {
-    
+    for (let i = 1 < nums.length; i++?){
+        while (nums[i -1] > nums[i]){
+            let temp = nums[i]
+            nums[i] = nums[i -1]
+            nums[i - 1] = temp
+            i -= 1
+        }
+       
 }
+
+return nums
+
+ }
 
 module.exports = insertionSort;
