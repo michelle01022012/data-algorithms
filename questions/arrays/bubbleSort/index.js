@@ -21,5 +21,5 @@
     }
     return nums
 }
-
+console.log(bubbleSort([10, 2, 3, 4]));
 module.exports = bubbleSort;
