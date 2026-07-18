@@ -23,6 +23,7 @@ const selectionSort = (nums) => {
         nums[i] = nums[currMin]
         nums[currMin] = temp
  }  
+}
 
  return nums
 }
